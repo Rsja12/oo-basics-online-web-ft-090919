@@ -1,4 +1,4 @@
-
+require "pry"
 
 class Book
   
@@ -15,3 +15,8 @@ class Book
   
 end
 
+
+dove = Book.new("Dove")
+dove.author = "Robert Graham"
+
+binding.pry
