@@ -1,4 +1,4 @@
-require "pry"
+
 
 class Book
   
@@ -16,7 +16,4 @@ class Book
 end
 
 
-dove = Book.new("Dove")
-dove.author = "Robert Graham"
-dove.author = "Alfonso"
-binding.pry
+
